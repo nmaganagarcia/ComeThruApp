@@ -5,4 +5,11 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="lightPurple">#AB7BE8</color>
+    <color name="mediumPurple">#8650CA</color>
+    <color name="darkPurple">#5D3D85</color>
+
+    <color name="grey">#656565</color>
+    <color name="black">#000000</color>
+
 </resources>
