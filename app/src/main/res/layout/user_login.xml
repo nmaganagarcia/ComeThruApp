@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".UserSignUp">
+
+    <include
+        android:id="toolBar"
+        layout="@layout/toolbar">
+
+    </include>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/GreetingLogIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ComeThru"
+            android:textColor="@color/black"
+            android:layout_below="@+id/toolBar"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username_"
+            android:layout_width="245dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/textview_border"
+            android:elevation="5dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/black"
+            android:layout_below="@id/GreetingLogIn"/>
+
+        <EditText
+            android:id="@+id/password_"
+            android:layout_width="245dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/textview_border"
+            android:elevation="5dp"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/black"
+            android:layout_below="@id/username_"/>
+
+        <Button
+            android:id="@+id/logInButton"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/password_"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/sign_up_btn"
+            android:elevation="5dp"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
